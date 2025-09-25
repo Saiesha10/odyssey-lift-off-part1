@@ -2,7 +2,7 @@ const gql = require("graphql-tag");
  
 const typeDefs = gql`
   type Query {
-    "Get tracks array for homepage grid"
+    
     tracksForHome: [Track!]!
   }
    
